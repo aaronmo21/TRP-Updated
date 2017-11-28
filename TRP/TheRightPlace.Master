@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TheRightPlace.master.cs" Inherits="TRP.TheRightPlace" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>TRP Master</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="TRPstylesheet.css" rel="stylesheet" />
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/jquery-1.9.1.min.js"></script>
+</head>
+<body >
+    <div class="container">
+        <form id="form1" runat="server" class="form-horizontal">
+
+
+            <header class="jumbotron" style="background-image: url('pics/trpBanner.PNG'); height: 150px; background-size: cover; background-repeat: no-repeat; background-position:center">
+                <div class="col-sm-offset-10">
+                    <asp:Button ID="btnReserveNow" runat="server" Text="Reserve Now!" cssclass="btn btn-primary" OnClick="btnReserveNow_Click"/>
+                </div>
+                <!--<img src="pics/trpBanner.PNG" />-->
+            </header>
+
+            <div class="row" style="height: 40px; background-color: lightgrey ; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+                <nav>
+                    <div class="col-sm-2 nav">
+                        <asp:HyperLink ID="HLhome" runat="server" NavigateUrl="~/HomePage.aspx">Home</asp:HyperLink>
+                    </div>
+                    <div class="col-sm-2 nav">
+                        <asp:HyperLink ID="HLroomsPrices" runat="server" NavigateUrl="~/RoomsPrices.aspx">Rooms & Prices</asp:HyperLink>
+                    </div>
+                    <div class="col-sm-2 nav">
+                        <asp:HyperLink ID="HLtestimonials" runat="server" NavigateUrl="~/Testimonials.aspx">Testimonials</asp:HyperLink>
+                    </div>
+                    <div class="col-sm-2 nav">
+                        <asp:HyperLink ID="HLcatering" runat="server" NavigateUrl="~/Catering.aspx">Catering</asp:HyperLink>
+                    </div>
+                    <div class="col-sm-2 nav">
+                        <asp:HyperLink ID="HLcontact" runat="server" NavigateUrl="~/Contact.aspx">Contacts</asp:HyperLink>
+                    </div>
+                    <div class="col-sm-2 nav">
+                        <asp:HyperLink ID="HLreserve" runat="server" NavigateUrl="~/Reserve.aspx">Reserve</asp:HyperLink>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="row">
+                <main class="col-sm-12">
+                    <div>
+                        <asp:ContentPlaceHolder ID="MasterContent" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </main>
+            </div>
+
+            <div class="row" style="height: 75px"></div>
+
+            <footer style="background-color: dimgray; opacity: 20">
+                <h6>The Right Place 2017</h6>
+            </footer>
+
+
+        </form>
+    </div>
+
+</body>
+</html>

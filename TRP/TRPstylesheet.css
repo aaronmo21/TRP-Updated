@@ -1,0 +1,48 @@
+﻿body {
+    background-color: blanchedalmond !important;
+}
+/*h1{
+    font-weight:100; font-size:larger
+}*/
+.nav{
+    display: inline;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+h4{
+    font: bold;
+    text-decoration:underline;
+    
+}
+
+ul{
+    
+
+}
+
+.panel-default{
+
+    
+    padding: 2em !important;
+
+}
+
+jumbotron {
+    /*background-image: url("pics/pics/trpBanner.png");
+    background-size: 100% 100%;
+    margin-top: 1em;
+    */
+    
+}
+
+.panel-default{
+    background-color: aqua;
+}
+
+
+
+
+
+
