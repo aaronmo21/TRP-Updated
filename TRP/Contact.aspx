@@ -14,8 +14,9 @@
         </div>
 
         <div class="col six">
-            <h3>Gary Rogue</h3>
+            <h3><a href="mailto:kim.strom@okstate.edu?subject=Put%20subject%20desired%20content">Gary Rogue</a></h3>
             <p>gary.rogue@trp.com </p>
+            <p>405-668-8888 ext.2100</p>
         </div>
     </asp:Panel> <br /><br />
     
@@ -26,8 +27,9 @@
         </div>
 
         <div class="col six">
-            <h3>Mika Myers</h3>
+            <h3><a href="mailto:kim.strom@okstate.edu?subject=Put%20subject%20desired%20content">Mika Myers</a></h3>
             <p>mika.myers@trp.com </p>
+            <p>405-668-8888 ext.2101</p>
         </div>
     </asp:Panel> <br /><br />
 
@@ -37,8 +39,9 @@
         </div>
 
         <div class="col six">
-            <h3>Paul Sikes</h3>
+            <h3><a href="mailto:kim.strom@okstate.edu?subject=Put%20subject%20desired%20content">Paul Sikes</a></h3>
             <p>sikesikesikes@trp.com</p>
+            <p>405-668-8888 ext.2102</p>
         </div>
     </asp:Panel> <br /><br />
 
@@ -49,8 +52,9 @@
         </div>
 
         <div class="col six">
-            <h3>Felicia Stokes</h3>
+            <h3><a href="mailto:kim.strom@okstate.edu?subject=Put%20subject%20desired%20content">Felicia Stokes</a></h3>
             <p>not.felicia@trp.com </p>
+            <p>405-668-8888 ext.2103</p>
         </div>
     </asp:Panel> <br /><br />
 
@@ -60,8 +64,9 @@
         </div>
 
         <div class="col six">
-            <h3>Cade Wilson</h3>
+            <h3><a href="mailto:kim.strom@okstate.edu?subject=Put%20subject%20desired%20content">Cade Wilson</a></h3>
             <p>wade.cilson@trp.com </p>
+            <p>405-668-8888 ext.2104</p>
         </div>
     </asp:Panel> <br /><br />
 </body>
