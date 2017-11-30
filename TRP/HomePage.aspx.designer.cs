@@ -22,13 +22,13 @@ namespace TRP {
         protected global::System.Web.UI.WebControls.Panel Contact1;
         
         /// <summary>
-        /// Image1 control.
+        /// PanelLocation control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image1;
+        protected global::System.Web.UI.WebControls.Panel PanelLocation;
         
         /// <summary>
         /// imageMap control.
@@ -38,15 +38,6 @@ namespace TRP {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image imageMap;
-        
-        /// <summary>
-        /// Image2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image2;
         
         /// <summary>
         /// Master property.

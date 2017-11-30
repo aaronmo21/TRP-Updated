@@ -15,7 +15,7 @@
      </asp:Panel>
 
            <div class="row">
-                <asp:Image ID="Image1" runat="server" ImageUrl="~/pics/1000personauditorium.jpg"/> 
+               <img class="img-circle" src="pics/1000personauditorium.jpg"/>
                 
            </div>
             
@@ -24,7 +24,8 @@
         <div class="col-sm-1"></div>
 
        
-        <div class="col-sm-4" style="border-style: solid; text-align:center">
+        <div class="col-sm-4" >
+            <asp:Panel ID="PanelLocation" runat="server" GroupingText="" CssClass="panel panel-default" >
             <div class="row">
                 <h4 style="font-style:italic; text-decoration: underline;">Our Location</h4>
             </div>
@@ -44,8 +45,10 @@
                     </h4>                     
 
             </div>
+                </asp:Panel>
         </div>
-    <asp:Image ID="Image2" runat="server"  ImageUrl="~/pics/burners.jpg"  />
+    
+    <img class="img-circle" src="pics/burners.jpg"/>
     
   
 </asp:Content>

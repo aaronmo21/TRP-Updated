@@ -43,8 +43,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AspNet.ScriptManager.jQuery, Version=3.1.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\AspNet.ScriptManager.jQuery.3.1.1\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+    <Reference Include="AspNet.ScriptManager.jQuery, Version=2.2.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.2.2.4\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -100,14 +100,9 @@
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="pics\BBQ.jpg" />
-    <Content Include="pics\Chipotle.jpg" />
     <Content Include="pics\Female1.jpg" />
     <Content Include="pics\Female2.jpg" />
-    <Content Include="pics\fingerfoods.jpg" />
-    <Content Include="pics\ItalianFood.jpeg" />
     <Content Include="pics\Male1.jpg" />
     <Content Include="pics\Male2.jpg" />
     <Content Include="pics\Male3.jpg" />
@@ -127,9 +122,7 @@
     <Content Include="pics\fusion.jpg" />
     <Content Include="pics\map.png" />
     <Content Include="pics\multipurposeroom.jpg" />
-    <Content Include="pics\Pasta.jpg" />
     <Content Include="pics\platesGlasses.jpg" />
-    <Content Include="pics\Seafood.jpg" />
     <Content Include="pics\sliders.jpg" />
     <Content Include="pics\trpBanner.PNG" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -141,13 +134,11 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Properties\PublishProfiles\TRP20171128021825 - Web Deploy.pubxml" />
-    <None Include="scripts\jquery-3.1.1-vsdoc.js" />
+    <None Include="scripts\jquery-2.2.4-vsdoc.js" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
-    <Content Include="scripts\jquery-3.1.1.js" />
-    <Content Include="scripts\jquery-3.1.1.min.js" />
-    <Content Include="scripts\jquery-3.1.1.slim.js" />
-    <Content Include="scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="scripts\jquery-2.2.4.js" />
+    <Content Include="scripts\jquery-2.2.4.min.js" />
     <Content Include="Summary.aspx" />
     <Content Include="pics\smallMProom.jpg" />
     <Content Include="TheRightPlace.Master" />
@@ -157,8 +148,7 @@
     <Content Include="Contact.aspx" />
     <Content Include="Reserve.aspx" />
     <Content Include="Confirm.aspx" />
-    <Content Include="scripts\jquery-3.1.1.slim.min.map" />
-    <Content Include="scripts\jquery-3.1.1.min.map" />
+    <Content Include="scripts\jquery-2.2.4.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -167,12 +157,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="scripts\ai.0.22.19-build00125.js" />
     <Content Include="scripts\ai.0.22.19-build00125.min.js" />
     <Content Include="HomePage.aspx" />
     <Content Include="TRPstylesheet.css" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />

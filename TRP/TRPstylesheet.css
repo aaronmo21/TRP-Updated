@@ -1,5 +1,6 @@
 ﻿body {
-    background-color: blanchedalmond !important;
+      background: -webkit-linear-gradient(ivory, slategray);
+    background-color: 
 }
 /*h1{
     font-weight:100; font-size:larger
@@ -38,7 +39,15 @@ jumbotron {
 }
 
 .panel-default{
-    background-color:  aliceblue;
+    background-color:  ;
+   
+}
+
+.PanelLocation{
+    padding-left: 100px;
+}
+.img-circle {
+    border-radius: 75%;
 }
 
 
