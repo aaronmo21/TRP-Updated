@@ -19,14 +19,14 @@
                 <asp:Label ID="lblCustName" runat="server" Text="Label"></asp:Label></div>
         </div>
 
-        <asp:SqlDataSource ID="SqlDataSourceInsert" runat="server" ConnectionString="<%$ ConnectionStrings:F17_ksameauxConnectionString %>" DeleteCommand="DELETE FROM [Customer] WHERE [CustomerID] = @CustomerID" InsertCommand="INSERT INTO [Customer] ([CustomerName], [Phone], [Email]) VALUES (@CustomerName, @Phone, @Email)" SelectCommand="SELECT * FROM [Customer]" UpdateCommand="UPDATE [Customer] SET [CustomerName] = @CustomerName, [Phone] = @Phone, [Email] = @Email WHERE [CustomerID] = @CustomerID">
+        <asp:SqlDataSource ID="SqlDataSourceInsert" runat="server" ConnectionString="<%$ ConnectionStrings:F17_ksameauxConnectionString %>" DeleteCommand="DELETE FROM [Customer] WHERE [CustomerID] = @CustomerID" InsertCommand="INSERT INTO Customer(CustomerName, Phone, Email) VALUES (@CustomerName, @Phone, @Email)" SelectCommand="SELECT CustomerID, CustomerName, Phone, Email FROM Customer" UpdateCommand="UPDATE [Customer] SET [CustomerName] = @CustomerName, [Phone] = @Phone, [Email] = @Email WHERE [CustomerID] = @CustomerID">
             <DeleteParameters>
                 <asp:Parameter Name="CustomerID" Type="Int32" />
             </DeleteParameters>
             <InsertParameters>
-                <asp:Parameter Name="CustomerName" Type="String" />
-                <asp:Parameter Name="Phone" Type="String" />
-                <asp:Parameter Name="Email" Type="String" />
+                <asp:ControlParameter Name="CustomerName" Type="String"  ControlID="lblCustName" />
+                <asp:ControlParameter Name="Phone" Type="String" ControlID="lblPhone" />
+                <asp:ControlParameter Name="Email" Type="String" ControlID="lblEmail"/>
             </InsertParameters>
             <UpdateParameters>
                 <asp:Parameter Name="CustomerName" Type="String" />
