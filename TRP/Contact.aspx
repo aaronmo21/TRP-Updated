@@ -55,7 +55,6 @@
             <h3><a href="mailto:kim.strom@okstate.edu?subject=Put%20subject%20desired%20content">Felicia Stokes</a></h3>
             <p>not.felicia@trp.com </p>
             <p>405-668-8888 ext.2103</p>
-            
         </div>
     </asp:Panel> <br /><br />
 
@@ -65,10 +64,9 @@
         </div>
 
         <div class="col six">
-             <h3><a href="mailto:kim.strom@okstate.edu?subject=Put%20subject%20desired%20content">Cade Wilson</a></h3>
+            <h3><a href="mailto:kim.strom@okstate.edu?subject=Put%20subject%20desired%20content">Cade Wilson</a></h3>
             <p>wade.cilson@trp.com </p>
             <p>405-668-8888 ext.2104</p>
-            
         </div>
     </asp:Panel> <br /><br />
 </body>
