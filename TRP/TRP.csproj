@@ -102,8 +102,12 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="pics\BBQ.jpg" />
+    <Content Include="pics\Chipotle.jpg" />
     <Content Include="pics\Female1.jpg" />
     <Content Include="pics\Female2.jpg" />
+    <Content Include="pics\fingerfoods.jpg" />
+    <Content Include="pics\ItalianFood.jpeg" />
     <Content Include="pics\Male1.jpg" />
     <Content Include="pics\Male2.jpg" />
     <Content Include="pics\Male3.jpg" />
@@ -123,7 +127,9 @@
     <Content Include="pics\fusion.jpg" />
     <Content Include="pics\map.png" />
     <Content Include="pics\multipurposeroom.jpg" />
+    <Content Include="pics\Pasta.jpg" />
     <Content Include="pics\platesGlasses.jpg" />
+    <Content Include="pics\Seafood.jpg" />
     <Content Include="pics\sliders.jpg" />
     <Content Include="pics\trpBanner.PNG" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
